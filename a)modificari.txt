@@ -1,0 +1,4 @@
+In registrul EX/MEM am semnalul sign in plus pe care il folosesc la una din instructiunile de branch cum am facut si inainte.
+Pentru BNE am folosit un si intre branch2 si zero negat, iar pentru BGEZ am folosit un si intre branch3 si sign.
+PCSrc a fost calculata cu un sau intre cele 3 porti si de la operatiile de branch.
+In toate registrele ce contin Branch, in loc de unul singur, am 3 semnale (Branch1, Branch2, Branch3), iar PCSrc va fi calculata in functie de acestea.
